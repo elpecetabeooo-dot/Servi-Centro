@@ -1,0 +1,179 @@
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #f9f9f9;
+  margin: 0;
+}
+
+header {
+  background: linear-gradient(90deg, #004d7a, #008793, #00bf72);
+  color: white;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  height: 50px;
+  margin-right: 15px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8em;
+}
+
+.login {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 40px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.login h2 {
+  color: #004d7a;
+  margin-bottom: 20px;
+}
+
+.login input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.login button {
+  width: 100%;
+  margin-top: 15px;
+  padding: 12px;
+  background: #008793;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.login button:hover {
+  background: #00bf72;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #333;
+  color: white;
+}
+
+.downloads {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.downloads h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #004d7a;
+}
+
+.downloads section {
+  margin-bottom: 40px;
+}
+
+.downloads ul {
+  list-style: none;
+  padding: 0;
+}
+
+.downloads li {
+  background: #f4f4f4;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.downloads a.btn {
+  background: #008793;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.downloads a.btn:hover {
+  background: #00bf72;
+}
+/* Tipografías */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #f9f9f9;
+  color: #333;
+  margin: 0;
+}
+
+/* Encabezado */
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2em;
+  margin: 0;
+}
+
+/* Sección de información */
+.info {
+  max-width: 700px;
+  margin: 80px auto;
+  padding: 50px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.info h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.2em;
+  color: #004d7a;
+  margin-bottom: 20px;
+}
+
+.info p {
+  font-size: 1.3em;
+  line-height: 1.6;
+  margin: 20px 0;
+}
+
+/* Botón de WhatsApp */
+.info a.btn {
+  display: inline-block;
+  background: #25D366;
+  color: white;
+  padding: 14px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.info a.btn:hover {
+  background: #128C7E;
+  transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
